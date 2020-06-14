@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Myapp</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+<body>
+  <app-root></app-root>
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAb9K0hIlA7iPDsxrJNDNQCzQE16XxCBeo",
+    authDomain: "tic-tac-toc-myapp.firebaseapp.com",
+    databaseURL: "https://tic-tac-toc-myapp.firebaseio.com",
+    projectId: "tic-tac-toc-myapp",
+    storageBucket: "tic-tac-toc-myapp.appspot.com",
+    messagingSenderId: "904433823040",
+    appId: "1:904433823040:web:170e38632d1dc9ecbd1ea5",
+    measurementId: "G-CMVJF49ZWV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
